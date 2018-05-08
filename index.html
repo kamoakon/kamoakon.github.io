@@ -21,7 +21,7 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-        <a class="navbar-brand" href="ht.html">Lattitude</a>
+        <a class="navbar-brand" href="index.html">Lattitude</a>
       </div>
 
       <!-- Collect the nav links, forms, and other content for toggling -->
@@ -30,10 +30,10 @@
           <li class="dropdown">
             <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Plots <span class="caret"></span></a>
             <ul class="dropdown-menu">
-              <li><a href="lat_temps.html">Latitude vs. Max Temperature</a></li>
+              <li><a href="lat_tem.html">Latitude vs. Max Temperature</a></li>
               <li><a href="lat_hum.html">Latitude vs. Humidity</a></li>
-              <li><a href="lat_cloud.html">Latitude vs. Cloudiness</a></li>
-              <li><a href="lat_wind.html">Latitude vs. Wind Speed</a></li>
+              <li><a href="lat_clo.html">Latitude vs. Cloudiness</a></li>
+              <li><a href="lat_win.html">Latitude vs. Wind Speed</a></li>
             </ul>
           </li>
           <li><a href="comparison.html">Comparison</a></li>
@@ -50,7 +50,7 @@
 
     <div class="row">
 
-        <div class="col-md-6 mr-auto pad top whitebox "> <br>
+        <div class="col-md-6 pad top whitebox-sum summary-style "> <br>
           <h3>Summary: Latitude vs. X</h3> <hr> <br>
 		  
 		  
@@ -60,47 +60,37 @@
 		<!--<div class="pull-left">-->
             
 	
-            <p><img src="http://www.vectorsland.com/imgd/l92820-wells-fargo-logo-88711.png" alt="Latitude vs. Max Temperature" width="200" height="175">accomplish this analysis, we first pulled data from the OpenWeatherMap
-                API to assemble a dataset of over 500 cities.  After assembling the dataset, Matplotlib was used to plot various aspects of weather
-                vs. latitude. Factors analyzed included: temperature, cloudiness, wind-speed and humidity. 
-                Additionally, Matplotlib was used to plot aspects of the weather using longitude
-                vs. latitude. The intent was to visualize a world map using weather plots. This site
-                provides the source data and visualizations created as part of the analysis,
-				 API to assemble a dataset of over 500 cities.  After assembling the dataset, Matplotlib was used to plot various aspects of weather
-                vs. latitude. Factors analyzed included: temperature, cloudiness, wind-speed and humidity. 
-                Additionally, Matplotlib was used to plot aspects of the weather using longitude
-                vs. latitude. The intent was to visualize a world map using weather plots. This site
-                provides the source data and visualizations created as part of the analysis,</p>
-  <div class="divider"></div>  
+            <p><img src="output_data/lat_tem.png" alt="Latitude vs. Max Temperature" width="200" height="175">
+			The purpose of this project was to analyze how weather changes as you get closer to the equator. To accomplish this analysis, we first pulled data from the OpenWeatherMap API to assemble a dataset on over 500 cities. 
+            </p><p>After assembling the dataset, we used Matplotlib to plot various aspects of the weather vs. latitude. Factors we looked at included: temperature, cloudiness, wind speed, and humidity. This site provides the source data and visualizations created as part of the analysis, as well as explainations and descriptions of any trends and correlations witnessed.</p>
+			<div class="divider"></div>  
 		
         </div>
 
 		
 
-        <div class="col-md-6 col-auto pad top whitebox"> <br>
-          <h3>Visualizations</h3> <hr> <br>
+        <div class="col-md-4 col-md-offset-0.5 top whitebox-vis vis-style"> <br>
+          <h3>Visualizations</h3> <hr>
 		  
 		      <div class="row">
 
 
-  <div class="row">
-        <div class="col-md-3 pad top"> <br>
 
-          <div class="pull-right">
-            <a href="lat_tem.html"><img src="output_data/lat_tem.png" alt="Latitude vs. Max Temperature" width="200" height="175"></a>
-            <a href="lat_win.html"><img src="output_data/lat_win.png" alt="Latitude vs. Wind Speed" width="200" height="175"></a>
+        <div class="col-md-3 col-md-offset-1 pad top ">
+
+            <a href="lat_tem.html"><img src="output_data/lat_tem.png" alt="Latitude vs. Max Temperature" width="150" height="150"></a>
+            <a href="lat_win.html"><img src="output_data/lat_win.png" alt="Latitude vs. Wind Speed" width="150" height="150"></a>
+
        </div>
-</div>
-</div>
-       <div class="col-md-3 pad top"> <br>
+       <div class="col-md-3 col-md-offset-2">
          
-  <div class="row">
-        <div class="pull-right">
-          <a href="lat_hum.html"><img src="output_data/lat_hum.png" alt="Latitude vs. Humidity" width="200" height="175"></a>
-          <a href="lat_clo.html"><img src="output_data/lat_clo.png" alt="Latitude vs. Cloudiness" width="200" height="175"></a>
-        </div>
 
-      </div>
+ 
+          <a href="lat_hum.html"><img src="output_data/lat_hum.png" alt="Latitude vs. Humidity" width="150" height="150"></a>
+          <a href="lat_clo.html"><img src="output_data/lat_clo.png" alt="Latitude vs. Cloudiness" width="150" height="150"></a>
+
+
+
 </div>
     </div>
 		  

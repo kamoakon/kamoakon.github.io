@@ -1,23 +1,50 @@
+p{
+font-family: Calibri,Candara,Segoe,Segoe UI,Optima,Arial,sans-serif; 
+color:#706c6c;
+}
+
+h1{
+	
+font-weight: bold; 
+}
+
 .navbar-brand { 
-color: black; 
+color: #3cb7b7; 
 background-color: #3cb7b7; 
 font-family: times new roman; 
 font-weight: bold; 
 font-size: 25px;
 position: relative;
-left: 50px;
- padding-bottom: 50px;
+left: 230px;
+
 } 
 
 .main-img {
-    float: left;
-	position: relative;
-	margin-right: -600px;
-	margin-top: -600px;
+
+
+position: relative;
+left: 60px;
+
+
+
 }
 
-.whitebox{
-background-color: white; 	
+img{
+	float: left;
+}
+
+.whitebox-sum{
+
+	background-color: white;
+    padding-bottom: 50px ;
+	margin:50px;
+}
+
+.whitebox-vis{
+
+ 
+	background-color: white;
+    margin-bottom: 50px;
 }
 
 .divider {
@@ -35,9 +62,19 @@ font-size: 30px;
 
 body { 
 background-color: #eaeaea; 
-
-
 } 
+
+.summary-style{
+	padding-top: 30px
+	padding-bottom: 100px;
+	margin-top: 70px;
+}
+
+.vis-style{
+    padding-bottom: 50px;
+
+	margin-top: 70px;
+}
 
 
 
